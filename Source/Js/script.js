@@ -26,4 +26,4 @@ function getInputValue() {
 // event Listeners ////////////////
 
 setInterval(liveUserScreenHeight, 100);
-inputElem.addEventListener("click", getInputValue);
+inputElem.addEventListener("change", getInputValue);
